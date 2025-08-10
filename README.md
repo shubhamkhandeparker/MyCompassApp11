@@ -4,16 +4,8 @@
 
 ```markdown
 # CompassApp 🧭
-
-<div align="center">
-  <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7d780f49-03cc-403d-be2d-e0f0f7a31256" />
-
-<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/3148dbff-870d-42c1-bd2f-6cc15140293b" />
-
-
-  
   **A Modern, Accurate Compass App built with Kotlin + Jetpack Compose**
-</div>
+
 
 ---
 
@@ -77,6 +69,10 @@ val azimuth = ((Math.toDegrees(orientationAngles[0].toDouble()) + 360) % 360).to
 ```
 
 **Custom Compass Needle**
+
+ <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7d780f49-03cc-403d-be2d-e0f0f7a31256" />
+
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/3148dbff-870d-42c1-bd2f-6cc15140293b" />
 
 ```kotlin
 Canvas(Modifier.size(280.dp)) {
